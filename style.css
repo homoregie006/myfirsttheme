@@ -1,0 +1,126 @@
+/*
+Theme Name: My First Theme
+Author: Harris Omoregie
+Author URI: http://wordpress.org/
+Description: A new theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#wrapper {
+	width:940px;
+	margin:0px auto;
+}
+
+header {
+	padding:20px;
+	border:1px solid #bbb;
+	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#fff), to(#ddd));
+}
+
+header h1 a {
+	-webkit-transition:-webkit-transform 0.5s;
+	transition:transform 0.5s;
+	display:inline-block;
+	color:#E0321B;
+	line-height: 120px;
+}
+
+header h1 a:hover {
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	text-decoration:none;
+	color:#FA6D5A;
+	
+}
+
+nav {
+	background-color:#222;
+	margin:10px 0px;
+}
+
+nav ul {
+	list-stye:none;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	float:left;
+}
+
+nav ul li a{
+	display:block;
+	color:#fff;
+	font-size:20px;
+	padding:4px 20px;
+	text-decoration:none;
+}
+
+.search-results ul li {
+	line-height:30px;
+}
+
+.search-results ul li a {
+	font-size:30px;
+	color:#222;
+	line-height:30px;
+}
+
+.meta {
+	color:#777;
+	margin:
+}
+
+.meta span {
+	margin-right:26px;
+}
+
+nav ul li a:hover {
+	text-decoration:none;
+	color:#222;
+	background:#ffff;
+}
+
+div.widget-social a img {
+	padding:6px;
+	height: 64px;
+	width: 64px;
+	transition:transform .4s;
+	-webkit-transition:-webkit-transform .4s;
+}
+
+div.widget-social a:hover img {
+	transform:rotate(100deg);
+	-webkit-transform:rotate(100deg);
+}
+
+/* CMS STYLES */
+
+
+.alignright {
+	float:right;
+	margin-left:8px;
+}
+.alignleft {
+	float:left;
+	marign-right:8px 8px 0px;
+}
+
+/* PHONE STYLES */
+@media (max-width: 480px) {
+	body {
+	background-image:none;
+	paddding: 0px;
+	}
+	#wrapper {
+		width:100px;
+	}
+	
+	.post .img {
+		float:none;
+		width:100% !important;
+		}
+		/*
